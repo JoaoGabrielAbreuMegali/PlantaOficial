@@ -12,7 +12,14 @@ EV.CornerStiffRear =    50420.286;
 EV.WheelBase = EV.FrontAxlePositionfromCG + EV.RearAxlePositionfromCG;
 EV.Mass = 357;
 EV.UnderSteerGradient = (EV.RearAxlePositionfromCG*EV.Mass)/(EV.CornerStiffFront *EV.WheelBase)-(EV.FrontAxlePositionfromCG*EV.Mass)/(EV.CornerStiffRear*EV.WheelBase);
+EV.WheelRadius = 0.30; 
 
+
+
+MTR.Speed  = [0 461 565 670 775 880 942 943];
+MTR.Torque = [13.1	13.1	10.6	9.0     7.7     6.8     6.4     0.1];
+MTR.Overpower = 3.5;
+MTR.MaxTorque = 13.1*MTR.Overpower;
 
 
 
