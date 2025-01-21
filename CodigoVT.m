@@ -13,7 +13,7 @@ EV.WheelBase = EV.FrontAxlePositionfromCG + EV.RearAxlePositionfromCG;
 EV.Mass = 357;
 EV.UnderSteerGradient = (EV.RearAxlePositionfromCG*EV.Mass)/(EV.CornerStiffFront *EV.WheelBase)-(EV.FrontAxlePositionfromCG*EV.Mass)/(EV.CornerStiffRear*EV.WheelBase);
 EV.WheelRadius = 0.30; 
-
+EV.GearRatio = 8.89;
 
 
 MTR.Speed  = [0 461 565 670 775 880 942 943];
